@@ -32,7 +32,7 @@ E.g.
 
 `python activity_predict.py  --category CancerCell --model "MDA-MB-361" --molecule "Cc1ccc(cc1)C(=O)Nc3ncc(Cc2cccc(c2)Cl)s3" --save_path "./result/Activitiy_Predict" --log_path log`
 
-### **2. Activity Predict**
+### **2. Virtual Screen**
 Use virtual_screen.py
 
 Args:
@@ -46,8 +46,8 @@ E.g.
 
 `python virtual_screen.py  --category CancerCell --model "MDA-MB-361" --molecule smiles.csv --save_path "./result/Virtual_Screen" --log_path log`
 
-### **3. Activity Predict**
-Use virtual_screen.py
+### **3. Similarity Search**
+Use similarity_search.py
 
 Args:
   - dataset_category : The categoryname of the interested dataset for similarity searching. (choosing among CancerCell, AnticancerTarget and NCI-60). *E.g. CancerCell*
