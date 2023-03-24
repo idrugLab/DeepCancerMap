@@ -11,9 +11,9 @@ The most important python packages are:
 - numpy == 1.18.2
 - pandas == 1.3.0
 
-DeepCancer was packed into such a local version for performing high-throughput calculation without limitation based on users' device. This package realizes the main funcions on the online platform. For using our software package more conveniently, we provide the environment file *<environment.txt>* to install environment directly.
+DeepCancerMap was packed into such a local version for performing high-throughput calculation without limitation based on users' device. This package realizes the main funcions on the online platform. For using our software package more conveniently, we provide the environment file *<environment.txt>* to install environment directly.
 
-Limited to the uploading data size provided by Github, the files in directory "/deepcancer/files" should be downloaded from our webserver https://deepcancer.idruglab.cn. Due to the naming scheme, the symbol "/" was replaced with "%", which should be noticed in entering the name of cancer cell lines.
+Limited to the uploading data size provided by Github, the files in directory "/deepcancer/files" should be downloaded from our webserver https://deepcancermap.idruglab.cn. Due to the naming scheme, the symbol "/" was replaced with "%", which should be noticed in entering the name of cancer cell lines.
 
 ---
 # **Command**
